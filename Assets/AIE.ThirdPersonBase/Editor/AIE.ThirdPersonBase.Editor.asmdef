@@ -1,0 +1,18 @@
+{
+    "name": "AIE.ThirdPersonBase.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e05f559edbdc6ed57a04e60f26f602fc"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

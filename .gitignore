@@ -1,0 +1,23 @@
+# Unity
+Library/
+Logs/
+Temp/
+UserSettings/
+ProjectSettings/BurstAotSettings_*
+obj/
+
+# Common Unity Conventions
+Builds/
+
+# IDEs
+.vscode/
+.vs/
+
+*.csproj
+*.vsconfig
+*.sln
+
+.idea/
+
+# OS
+.directory

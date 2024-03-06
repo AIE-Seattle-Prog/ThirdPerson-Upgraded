@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &217670952662647124
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8240846328718953123, guid: 92ec4c7436e4739568707a3bafc13e9d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240846328718953123, guid: 92ec4c7436e4739568707a3bafc13e9d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240846328718953123, guid: 92ec4c7436e4739568707a3bafc13e9d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240846328718953123, guid: 92ec4c7436e4739568707a3bafc13e9d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240846328718953123, guid: 92ec4c7436e4739568707a3bafc13e9d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240846328718953123, guid: 92ec4c7436e4739568707a3bafc13e9d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240846328718953123, guid: 92ec4c7436e4739568707a3bafc13e9d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240846328718953123, guid: 92ec4c7436e4739568707a3bafc13e9d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240846328718953123, guid: 92ec4c7436e4739568707a3bafc13e9d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240846328718953123, guid: 92ec4c7436e4739568707a3bafc13e9d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240846328718953123, guid: 92ec4c7436e4739568707a3bafc13e9d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8725318276605825049, guid: 92ec4c7436e4739568707a3bafc13e9d,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerGameCharacter
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92ec4c7436e4739568707a3bafc13e9d, type: 3}
+--- !u!1 &3811671598768154646 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4026382494296549698, guid: 92ec4c7436e4739568707a3bafc13e9d,
+    type: 3}
+  m_PrefabInstance: {fileID: 217670952662647124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8796616571980124486 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8725318276605825042, guid: 92ec4c7436e4739568707a3bafc13e9d,
+    type: 3}
+  m_PrefabInstance: {fileID: 217670952662647124}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8796616571980124493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e54e5a728a9234ab24fcf1460ed8a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8796616571980124493 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8725318276605825049, guid: 92ec4c7436e4739568707a3bafc13e9d,
+    type: 3}
+  m_PrefabInstance: {fileID: 217670952662647124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2870215412304469086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8796616571980124493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e087ecce43ebbff45a1b360637807d93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorLocked: 1
+  cursorInputForLook: 1
+  motor: {fileID: 8796616571980124486}
+  _mainCamera: {fileID: 0}
+  CameraTarget: {fileID: 3811671598768154646}
+  TopClamp: 70
+  BottomClamp: -30
+  CameraAngleOverride: 0
+  LockCameraPosition: 0
