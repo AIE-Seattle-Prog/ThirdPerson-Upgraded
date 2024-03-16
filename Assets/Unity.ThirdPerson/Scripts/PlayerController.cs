@@ -102,6 +102,11 @@ namespace Unity.StarterAssets
 			motor.JumpWish = newJumpState;
 		}
 
+		public void CrouchInput(bool newCrouchState)
+		{
+			motor.CrouchWish = newCrouchState;
+		}
+
 		public void SprintInput(bool newSprintState)
 		{
 			motor.SprintWish = newSprintState;
@@ -159,10 +164,24 @@ namespace Unity.StarterAssets
 			{
 				JumpInput(true);
 			}
+			else if (Input.GetButtonUp("Jump"))
+			{
+				JumpInput(false);
+			}
+
+			if (Input.GetButtonDown("Crouch"))
+			{
+				CrouchInput(true);
+			}
+			else if (Input.GetButtonUp("Crouch"))
+			{
+				CrouchInput(false);
+			}
 
 			SprintInput(Input.GetButton("Sprint"));
 #endif
 
+			motor.RawMoveWish = moveWish;
 			Vector3 rotatedMoveWish = Quaternion.Euler(0.0f, _TargetYaw, 0.0f) * new Vector3(moveWish.x, 0, moveWish.y);
 			motor.MoveWish = rotatedMoveWish;
 		}
